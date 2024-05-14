@@ -48,7 +48,7 @@
       >
         <div class="carousel-inner">
 <nav class="sidebar">
-    <div class="sidebar-toggle" onclick="toggleSidebar()">
+    <div class="sidebar-toggle" onclick="toggleSidebar()"></div>
       <!-- <div class="sidebar-icon">
         <img src="./img/menu.png" alt="sidebar image" height="10%"  class="mrindia">
       </div> -->
@@ -89,15 +89,17 @@
               <div class="container mt-0 pt-0 pb-0">
                 <div class="row">
                   <div class="col">
+                    <header>
                     <div class="navbar-links">
-                      <ul 
+                      <ul id="menuList"
                         class="d-flex justify-content-between align-items-center p-0 m-0 "
                       >
+                      <div class="icon menubtn"><i class=" bar fa-solid fa-bars" onclick="toggleMenu()"></i></div>
                         <li><a href="#" class="active">Home</a></li>
                         <li class = "dropbtn dropdown">
                           <a href="https://ldce.ac.in/about/institute"
-                            >About<span><img src="img/down.png" alt="" /></span
-                          ></a>
+                            >About</a><span><img src="img/down.png" alt="" /></span
+                          >
                           <div class="dropdown-content">
                             <div class="sec1">
                             <span id = "intake">Intake and Admission</span> <br>
@@ -116,8 +118,8 @@
                         <li class = "dropbtn dropdown">
                           <a
                             href="https://ldce.ac.in/admissions/academiccalender"
-                            >Acedemics<span><img src="img/down.png" alt="" /></span></a
-                          >
+                            >Acedemics</a
+                          ><span><img src="img/down.png" alt="" /></span>
                           <div class="dropdown-content">
                             <div class="sec1">
                             <span id = "intake">Intake and Admission</span> <br>
@@ -135,8 +137,8 @@
                         </li>
                         <li class = "dropbtn dropdown">
                           <a href="https://ldce.ac.in/departments"
-                            >Departments<span><img src="img/down.png" alt="" /></a
-                          ></span>
+                            >Departments</a
+                          ><span><img src="img/down.png" alt="" /></span>
                           <div class="dropdown-content">
                             <div class="sec1">
                             <span id = "intake">Intake and Admission</span> <br>
@@ -154,8 +156,8 @@
                         </li>
                         <li class = "dropbtn dropdown">
                           <a href="https://ldce.ac.in/campus-life"
-                            >Campus Life<span><img src="img/down.png" alt="" /></a
-                          ></span>
+                            >Campus Life</a
+                          ><span><img src="img/down.png" alt="" /></span>
                           <div class="dropdown-content">
                             <div class="sec1">
                             <span id = "intake">Intake and Admission</span> <br>
@@ -184,11 +186,11 @@
                           >
                         </li>
                       </ul>
+                    </header>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
           </nav>
           <div class="carousel-item active">
             <img class="d-block w-100" src="img/herobg.jpg" alt="First slide" />
@@ -203,7 +205,33 @@
               alt="Third slide"
             />
           </div>
-          
+          <!-- <div class="unit-blocks mobilecolumn " >
+            <div class="block">
+              <a href="#news">
+                <img src="img/news-icon.png" alt="news" />
+                <h4>NEWS</h4>
+              </a>
+            </div>
+            <div class="block block-alt">
+              <a href="https://ldce.ac.in/ssip">
+                <img src="img/startup.png" alt="startup" />
+                <h4>STARTUPS</h4>
+              </a>
+            </div>
+            <div class="block">
+              <a href="#placement" class="block3">
+                <img src="img/placement.png" alt="placement" />
+                <h4>PLACEMENTS</h4>
+              </a>
+            </div>
+            <div class="block block-alt">
+              <a href="#event">
+                <img src="img/event.png" alt="event" />
+                <h4>EVENTS</h4>
+              </a>
+            </div>
+          </div>
+        </div> -->
         <a
           class="carousel-control-prev"
           href="#carouselExample"
@@ -250,8 +278,7 @@
             </div>
             <!-- </div> -->
         </div>
-
-
+    </div>
     </div>
     </div>
     <div class="imp-announcment">
